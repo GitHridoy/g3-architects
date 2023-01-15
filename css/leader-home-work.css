@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: rgba(255, 144, 14, 0.1);
+    
+    
+   
+}
+.logo{
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+nav ul{
+    display: flex;
+    margin-top: 30px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/*top-info-container*/
+.top-info-container{
+    margin: 120px 200px 0px 300px;
+    align-items: center;
+}
+.top-info-box{
+    width: 862px;
+    height: 225;
+}
+.top-title{
+    font-size: 64px;
+    text-align: center;
+}
+.top-des{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+}
+.btn{
+    margin-left: 370px;
+    margin-top: 30px;
+    padding: 17px 30px;
+    background-color: #FF900E;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #d6780c;
+    cursor: pointer;
+}
+.banner{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 900px;
+    height: 390px;
+}
+
+/*Future Section*/
+.future-container{
+    
+}
+.future{
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.future-photo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+.future-photo div img{
+         width: 100%;
+}
+.future-title{
+    font-size: 45px;
+    font-weight: 500px;
+}
+.future-des{
+    margin-top: 10px;
+}
+.future-btn{
+    margin-top: 20px;
+    padding: 12px 19px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
